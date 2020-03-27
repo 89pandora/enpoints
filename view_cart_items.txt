@@ -1,0 +1,53 @@
+GET http://127.0.0.1:8000/api/cart_items
+
+
+[
+    {
+        "items": [
+            {
+                "item": {
+                    "id": 12,
+                    "title": "Team accept business factor soldier theory save.",
+                    "price": 0.5839674612881541,
+                    "image": "/media/family.txt",
+                    "image1": "/media/help.css",
+                    "image2": "/media/something.tiff",
+                    "image3": "/media/whatever.mp4",
+                    "image4": "/media/song.html",
+                    "image5": "/media/partner.bmp",
+                    "orders": 17248,
+                    "sizes": "Would idea plant anyone pretty. Sea see rate available hope. Nor explain quickly most teacher arm.\nHer officer spend try. Specific of coach field.",
+                    "colors": "Cause yes safe year win write.\nToday top sure. Window whom near protect quite security hear.",
+                    "category": "S",
+                    "description": "Author always deal blue right hit number dinner. Those never blood. Among process candidate bank.\nSome since happy side less remember knowledge. Board seven use strong class. Myself art above cut.",
+                    "in_stock": true
+                },
+                "quantity": 3,
+                "color": "adad",
+                "size": "aasd"
+            },
+            {
+                "item": {
+                    "id": 17,
+                    "title": "Child president sometimes form foot.",
+                    "price": 0.19386822118437375,
+                    "image": "/media/day.csv",
+                    "image1": "/media/more.css",
+                    "image2": "/media/never.jpg",
+                    "image3": "/media/author.tiff",
+                    "image4": "/media/finally.flac",
+                    "image5": "/media/store.flac",
+                    "orders": 15944,
+                    "sizes": "Far make provide office throw. Standard someone candidate sea movement young. Style past age.\nIts we newspaper suggest eight stand. The goal threat concern. Really table tax reveal.",
+                    "colors": "Whether week exactly son international your market. As it religious second purpose factor. Off ago soldier adult response past.",
+                    "category": "OW",
+                    "description": "Establish throughout few must doctor put difference. Week fight our pay.",
+                    "in_stock": true
+                },
+                "quantity": 3,
+                "color": "week",
+                "size": "Far"
+            }
+        ]
+    }
+]

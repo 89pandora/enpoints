@@ -1,0 +1,15 @@
+STAGE 1
+POST http://127.0.0.1:8000/api/send_reset/
+user=email_or_Phone
+{'response':'code sent'}
+
+{'response':'User does not exist'}
+
+
+
+STAGE 2
+POST http://127.0.0.1:8000/api/reset_pass
+user=email_or_Phone code=code_goes_here password=password
+{'response':'password changed'}
+
+{'response':'code does not match'}

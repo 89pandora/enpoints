@@ -1,0 +1,38 @@
+POST http://127.0.0.1:8000/api/remove_single_item_from_cart
+itemid=item_id color=null size=null
+
+{
+    "response": "This item quantity was updated"
+}
+
+
+
+{
+    "response": "Item was not in cart"
+}
+
+{
+    "response": "No items in cart"
+}
+
+
+
+
+
+POST http://127.0.0.1:8000/api/remove_item_from_cart
+
+itemid=item_id color=null size=null
+
+{
+    "response": " Item removed from cart"
+}
+
+
+
+{
+    "response": "Item was not in cart"
+}
+
+{
+    "response": "No items in cart"
+}
