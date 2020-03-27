@@ -1,7 +1,0 @@
-GET 'http://127.0.0.1:8000/api/get_cart_item_count' 
---header 'Authorization: Bearer 2d8e3e18615eb53e6578525ce365a7773253a1a3' 
-
-
-{
-    "response": 0,
-}
