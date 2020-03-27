@@ -1,0 +1,11 @@
+POST http://127.0.0.1:8000/api/edit_address
+
+region=POST['region'] city=POST['city'] name=POST['name'] area=POST['area'] street=POST['street'] apartment=POST['apartment'] phone=POST['phon']
+
+
+{
+    "response": "saved"
+    
+}
+
+

@@ -1,0 +1,34 @@
+GET http://127.0.0.1:8000/api/reviews/[product id] eg http://127.0.0.1:8000/api/reviews/2
+
+{
+reviews:{
+    "user": "jimmy",
+    "message": "this shirt helped me pass my examination",
+    "stars": 5
+}
+,{
+    "user": "kwame",
+    "message": "cool shirt",
+    "stars": 4
+}
+,{
+    "user": "4",
+    "message":"cool text here",
+    "stars": 5
+}
+,{
+    "user": "kaen",
+    "message": "another review",
+    "stars": 5
+}
+
+
+}
+
+
+
+
+
+
+
+

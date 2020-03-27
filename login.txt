@@ -1,0 +1,14 @@
+POST http://127.0.0.1:8000/api/login/
+username=email_or_Phone password=password
+{
+    "token": "412a7ece5e664d870025dc52be817f36f9655d81"
+}
+
+
+CASE WRONG CREDENTIALS
+{
+    "non_field_errors": [
+        "Unable to log in with provided credentials."
+    ]
+}
+

@@ -1,0 +1,14 @@
+POST http://127.0.0.1:8000/api/add-to-cart
+item=item_id color=null size=null
+
+{
+    "response": "Added to cart"
+}
+OR
+{
+    "response": "out of stock item can not be added to cart"
+}
+OR
+{
+    "response": "color and size not accepted form this product"
+}
