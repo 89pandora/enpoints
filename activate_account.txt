@@ -1,5 +1,0 @@
-GET http://127.0.0.1:8000/api/activate_account/[secretcode]
-
-{
-    "response": "Your account have been Activated"
-}
